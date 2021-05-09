@@ -1,0 +1,31 @@
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div class="w3-main" style="position : relative; left:30% ; width: 60%;">
+
+  <div class="w3-main" style="margin-left:-5%;margin-right:4px">
+    <div class="w3-container" id="packages" style="margin-top:5%">
+      <h6 class="w3-text" style="color: #D2B48C; font-size: 2vw;"><b>Recommandation Opérationnelles.</b></h6>
+      <hr style="width:20vw;border:0.2vw solid #D2B48C" class="w3-round">
+
+    </div>
+  </div>
+<p style="font-size:1.2vw;margin-left:-5%;">Dans une optique d’amélioration continue, cette plateforme vous permettra de consulter des recommandations personnalisées :<br>
+  Ces recommandations sont des exercices d’entrainements (extraits des concours de raisonnement logiques) qui ciblent les faiblesses de chaque élève selon ses résultats dans le concours Castor.
+  Cette plateforme permet aussi de fournir des recommandations stratégiques aux enseignants ainsi qu’aux décideurs.
+  Il suffit d’entrer l’identifiant de l’élève professeur ou décideur pour voir en détail les lacunes présentes et les recommandations que ce système propose.
+  </p>
+<table class="tab1">
+  <tbody>
+      <tr>
+        <td><button type="submit" class="button button1"> <a [routerLink]="['/recommandation']">Recommandations pour apprenant</a></button></td>
+        <td><button type="submit" class="button button1"> <a [routerLink]="['/recomEcole']">Recommandation pour professeur</a></button></td>
+        <td><button type="submit" class="button button1"> <a [routerLink]="['/recommandation']">Recommandations pour décideur</a></button></td>
+      </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
